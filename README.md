@@ -25,4 +25,4 @@ Notebook [```getting_started.ipynb```][9] is the best place to start. It covers 
 [6]:https://hudi.apache.org/docs/concepts/#query-types
 [7]:https://hudi.apache.org/docs/concepts/#copy-on-write-table
 [8]:https://hudi.apache.org/docs/concepts/#merge-on-read-table
-[9]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/blob/main/getting_started.ipynb
+[9]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/blob/main/getting_started/Hudi%20v0.7.0/getting_started.ipynb
