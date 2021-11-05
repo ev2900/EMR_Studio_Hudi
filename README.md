@@ -5,9 +5,12 @@ Important background on key [concepts][1]. If you are new to working with Hudi i
 
 ## Enviorment Set Up
 
+The samples in this repository are designed to run on EMR via. EMR Notebooks or EMR Studio. To set up your enviorment follow the AWS documentation for [EMR Notebooks][10] or [EMR Studio][11]. 
+
+You can upload the .ipynb files in this repository directly to the Jupyter enviorments provides by EMR Notebooks / Studio
 
 ## Getting Started
-Notebook [```getting_started.ipynb```][9] is the best place to start. It covers working with data via. Hudi specific to copy on write tables. The notebook covers
+Notebook [```getting_started.ipynb```][9] is the best place to start. It covers working with data via. Hudi specific to **copy on write** tables. The notebook covers
 * Writing data to S3 
 * Reading data from S3
 * Upserting data
@@ -26,3 +29,5 @@ Notebook [```getting_started.ipynb```][9] is the best place to start. It covers 
 [7]:https://hudi.apache.org/docs/concepts/#copy-on-write-table
 [8]:https://hudi.apache.org/docs/concepts/#merge-on-read-table
 [9]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/blob/main/getting_started/Hudi%20v0.7.0/getting_started.ipynb
+[10]:https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-notebooks.html
+[11]:https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-studio.html
