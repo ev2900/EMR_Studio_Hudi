@@ -11,6 +11,8 @@ Notebook [```getting_started.ipynb```][9] is the best place to start. It covers 
 * Writing data to S3 
 * Reading data from S3
 * Upserting data
+* Incremental querying
+* Point in Time querying
 * Deleting Data
 
 ## Merge on Read
