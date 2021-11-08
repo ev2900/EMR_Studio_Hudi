@@ -20,7 +20,7 @@ Notebook [```getting_started.ipynb```][9] is the best place to start. It covers 
 
 ## Merge on Read
 
-Under development ... I am working on building a similar example to the [```getting_started.ipynb```][9] using merge on read tables. I am working on building out this sample
+Under development ... I am working on building a similar example to the [```getting_started.ipynb```][9] using merge on read table(s)
 
 [1]:https://hudi.apache.org/docs/concepts/
 [2]:https://hudi.apache.org/docs/concepts/#timeline
