@@ -18,8 +18,7 @@ Notebook [```getting_started.ipynb```][9] is the best place to start. It covers 
 * Point in Time querying
 * Deleting Data
 
-Both a [Python][12] and [Scala][13] notebooks are available. *Note* the Scala notebook is still under development it is ~ 65% complete.
-
+Both a [Python][12] and [Scala][13] notebooks are available.
 ## Merge on Read
 
 Under development ... I am working on building a similar example to the [```getting_started.ipynb```][9] using merge on read table(s)
