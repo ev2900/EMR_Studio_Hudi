@@ -14600,11 +14600,15 @@ No active sessions.
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-scala"><pre><span></span><span class="k">import</span> <span class="nn">org</span><span class="p">.</span><span class="nn">apache</span><span class="p">.</span><span class="nn">spark</span><span class="p">.</span><span class="nn">sql</span><span class="p">.</span><span class="nc">SaveMode</span>
-<span class="k">import</span> <span class="nn">org</span><span class="p">.</span><span class="nn">apache</span><span class="p">.</span><span class="nn">spark</span><span class="p">.</span><span class="nn">sql</span><span class="p">.</span><span class="nn">functions</span><span class="p">.</span><span class="n">_</span>
-<span class="k">import</span> <span class="nn">org</span><span class="p">.</span><span class="nn">apache</span><span class="p">.</span><span class="nn">spark</span><span class="p">.</span><span class="nn">sql</span><span class="p">.</span><span class="nn">types</span><span class="p">.</span><span class="n">_</span>
-<span class="k">import</span> <span class="nn">org</span><span class="p">.</span><span class="nn">apache</span><span class="p">.</span><span class="nn">hudi</span><span class="p">.</span><span class="nc">DataSourceWriteOptions</span>
+<span class="k">import</span> <span class="nn">org</span><span class="p">.</span><span class="nn">apache</span><span class="p">.</span><span class="nn">spark</span><span class="p">.</span><span class="nn">sql</span><span class="p">.</span><span class="n">functions</span>
 <span class="k">import</span> <span class="nn">org</span><span class="p">.</span><span class="nn">apache</span><span class="p">.</span><span class="nn">hudi</span><span class="p">.</span><span class="nc">DataSourceReadOptions</span>
+<span class="k">import</span> <span class="nn">org</span><span class="p">.</span><span class="nn">apache</span><span class="p">.</span><span class="nn">hudi</span><span class="p">.</span><span class="nc">DataSourceReadOptions</span><span class="p">.</span><span class="n">_</span>
+<span class="k">import</span> <span class="nn">org</span><span class="p">.</span><span class="nn">apache</span><span class="p">.</span><span class="nn">hudi</span><span class="p">.</span><span class="nc">DataSourceWriteOptions</span>
+<span class="k">import</span> <span class="nn">org</span><span class="p">.</span><span class="nn">apache</span><span class="p">.</span><span class="nn">hudi</span><span class="p">.</span><span class="nc">DataSourceWriteOptions</span><span class="p">.</span><span class="n">_</span>
+<span class="k">import</span> <span class="nn">org</span><span class="p">.</span><span class="nn">apache</span><span class="p">.</span><span class="nn">spark</span><span class="p">.</span><span class="nn">sql</span><span class="p">.</span><span class="n">types</span>
 <span class="k">import</span> <span class="nn">org</span><span class="p">.</span><span class="nn">apache</span><span class="p">.</span><span class="nn">hudi</span><span class="p">.</span><span class="nn">config</span><span class="p">.</span><span class="nc">HoodieWriteConfig</span>
+<span class="k">import</span> <span class="nn">org</span><span class="p">.</span><span class="nn">apache</span><span class="p">.</span><span class="nn">hudi</span><span class="p">.</span><span class="nn">config</span><span class="p">.</span><span class="nc">HoodieWriteConfig</span><span class="p">.</span><span class="n">_</span>
+
 <span class="k">import</span> <span class="nn">org</span><span class="p">.</span><span class="nn">apache</span><span class="p">.</span><span class="nn">hudi</span><span class="p">.</span><span class="nn">hive</span><span class="p">.</span><span class="nc">MultiPartKeysValueExtractor</span>
 
 <span class="k">import</span> <span class="nn">java</span><span class="p">.</span><span class="nn">sql</span><span class="p">.</span><span class="nc">Timestamp</span>
@@ -14631,12 +14635,12 @@ No active sessions.
 
 
 
-<div id="d18c42fd-11a8-4c76-ae4a-7f47ded5e28a" class="jupyter-widgets jp-OutputArea-output ">
+<div id="2c4442f1-bc24-4c73-8141-cc6cd0c81793" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('d18c42fd-11a8-4c76-ae4a-7f47ded5e28a');
+var element = document.getElementById('2c4442f1-bc24-4c73-8141-cc6cd0c81793');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "0070b2871f5e4988be761baa208a5333", "version_major": 2, "version_minor": 0}
+{"model_id": "9d85dc4364794034a95074c34c069d15", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -14663,8 +14667,8 @@ var element = document.getElementById('d18c42fd-11a8-4c76-ae4a-7f47ded5e28a');
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
 <table>
-<tr><th>ID</th><th>YARN Application ID</th><th>Kind</th><th>State</th><th>Spark UI</th><th>Driver log</th><th>Current session?</th></tr><tr><td>8</td><td>application_1636465466779_0009</td><td>spark</td><td>idle</td><td><a target="_blank" href="http://ip-172-31-43-207.ec2.internal:20888/proxy/application_1636465466779_0009/" class="emr-proxy-link" emr-resource="j-1JETVFHCNDPKD
-" application-id="application_1636465466779_0009">Link</a></td><td><a target="_blank" href="http://ip-172-31-41-193.ec2.internal:8042/node/containerlogs/container_1636465466779_0009_01_000001/livy" >Link</a></td><td>✔</td></tr></table>
+<tr><th>ID</th><th>YARN Application ID</th><th>Kind</th><th>State</th><th>Spark UI</th><th>Driver log</th><th>Current session?</th></tr><tr><td>19</td><td>application_1636465466779_0020</td><td>spark</td><td>idle</td><td><a target="_blank" href="http://ip-172-31-43-207.ec2.internal:20888/proxy/application_1636465466779_0020/" class="emr-proxy-link" emr-resource="j-1JETVFHCNDPKD
+" application-id="application_1636465466779_0020">Link</a></td><td><a target="_blank" href="http://ip-172-31-47-164.ec2.internal:8042/node/containerlogs/container_1636465466779_0020_01_000001/livy" >Link</a></td><td>✔</td></tr></table>
 </div>
 
 </div>
@@ -14680,9 +14684,9 @@ var element = document.getElementById('d18c42fd-11a8-4c76-ae4a-7f47ded5e28a');
 
 
 
-<div id="806ac177-186b-4701-8c0e-5e00a59f2e1d" class="jupyter-widgets jp-OutputArea-output ">
+<div id="d1545103-5dd5-4ed9-a534-e4fd92c76f96" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('806ac177-186b-4701-8c0e-5e00a59f2e1d');
+var element = document.getElementById('d1545103-5dd5-4ed9-a534-e4fd92c76f96');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "", "version_major": 2, "version_minor": 0}
@@ -14714,9 +14718,9 @@ var element = document.getElementById('806ac177-186b-4701-8c0e-5e00a59f2e1d');
 
 
 
-<div id="8750b978-081a-4c3a-b3c7-65b7f6f792e9" class="jupyter-widgets jp-OutputArea-output ">
+<div id="9a88ebcd-5cd9-436f-9a6f-0b7a2b9bbbc4" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('8750b978-081a-4c3a-b3c7-65b7f6f792e9');
+var element = document.getElementById('9a88ebcd-5cd9-436f-9a6f-0b7a2b9bbbc4');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "", "version_major": 2, "version_minor": 0}
@@ -14733,11 +14737,14 @@ var element = document.getElementById('8750b978-081a-4c3a-b3c7-65b7f6f792e9');
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>import org.apache.spark.sql.SaveMode
-import org.apache.spark.sql.functions._
-import org.apache.spark.sql.types._
-import org.apache.hudi.DataSourceWriteOptions
+import org.apache.spark.sql.functions
 import org.apache.hudi.DataSourceReadOptions
+import org.apache.hudi.DataSourceReadOptions._
+import org.apache.hudi.DataSourceWriteOptions
+import org.apache.hudi.DataSourceWriteOptions._
+import org.apache.spark.sql.types
 import org.apache.hudi.config.HoodieWriteConfig
+import org.apache.hudi.config.HoodieWriteConfig._
 import org.apache.hudi.hive.MultiPartKeysValueExtractor
 import java.sql.Timestamp
 </pre>
@@ -14793,12 +14800,12 @@ import java.sql.Timestamp
 
 
 
-<div id="5b0ca62c-fa72-4663-8f70-9096f204d008" class="jupyter-widgets jp-OutputArea-output ">
+<div id="5a55346b-0369-427f-a767-b82df9da3c93" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('5b0ca62c-fa72-4663-8f70-9096f204d008');
+var element = document.getElementById('5a55346b-0369-427f-a767-b82df9da3c93');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "16bc5c3249e041879f892f830ee19126", "version_major": 2, "version_minor": 0}
+{"model_id": "0ec2fb1312674502a881915d1da83b84", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -14815,9 +14822,9 @@ var element = document.getElementById('5b0ca62c-fa72-4663-8f70-9096f204d008');
 
 
 
-<div id="6a832663-f6f7-4a39-bb5d-adaa5f44d115" class="jupyter-widgets jp-OutputArea-output ">
+<div id="440ee728-aa1f-4925-82ed-061a1aa62e59" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('6a832663-f6f7-4a39-bb5d-adaa5f44d115');
+var element = document.getElementById('440ee728-aa1f-4925-82ed-061a1aa62e59');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "", "version_major": 2, "version_minor": 0}
@@ -14963,12 +14970,12 @@ var element = document.getElementById('6a832663-f6f7-4a39-bb5d-adaa5f44d115');
 
 
 
-<div id="f330d8c3-61e7-4c73-a417-4964f3f035d5" class="jupyter-widgets jp-OutputArea-output ">
+<div id="c48c1759-4248-4143-84e7-f24ee1bdac95" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('f330d8c3-61e7-4c73-a417-4964f3f035d5');
+var element = document.getElementById('c48c1759-4248-4143-84e7-f24ee1bdac95');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "7e2bb673c5ae42d195315e8413d5ec93", "version_major": 2, "version_minor": 0}
+{"model_id": "bb8cec64f4bb470ab4d4098503263481", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -14985,9 +14992,9 @@ var element = document.getElementById('f330d8c3-61e7-4c73-a417-4964f3f035d5');
 
 
 
-<div id="ac2c77ad-349a-442b-90b4-56983f613c0e" class="jupyter-widgets jp-OutputArea-output ">
+<div id="f8b7eed6-9e3a-4191-b59a-f0ccc3ce402d" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('ac2c77ad-349a-442b-90b4-56983f613c0e');
+var element = document.getElementById('f8b7eed6-9e3a-4191-b59a-f0ccc3ce402d');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "", "version_major": 2, "version_minor": 0}
@@ -15047,7 +15054,13 @@ var element = document.getElementById('ac2c77ad-349a-442b-90b4-56983f613c0e');
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-scala"><pre><span></span><span class="c1">// Write the DataFrame as a Hudi dataset</span>
-<span class="n">inputDF</span><span class="p">.</span><span class="n">write</span><span class="p">.</span><span class="n">format</span><span class="p">(</span><span class="s">&quot;org.apache.hudi&quot;</span><span class="p">).</span><span class="n">option</span><span class="p">(</span><span class="nc">DataSourceWriteOptions</span><span class="p">.</span><span class="nc">OPERATION_OPT_KEY</span><span class="p">,</span> <span class="nc">DataSourceWriteOptions</span><span class="p">.</span><span class="nc">INSERT_OPERATION_OPT_VAL</span><span class="p">).</span><span class="n">options</span><span class="p">(</span><span class="n">hudiOptions</span><span class="p">).</span><span class="n">mode</span><span class="p">(</span><span class="nc">SaveMode</span><span class="p">.</span><span class="nc">Overwrite</span><span class="p">).</span><span class="n">save</span><span class="p">(</span><span class="s">&quot;s3://hudi-sharkech/myhudidataset_scala/&quot;</span><span class="p">)</span>
+<span class="n">inputDF</span><span class="p">.</span>
+    <span class="n">write</span><span class="p">.</span>
+    <span class="n">format</span><span class="p">(</span><span class="s">&quot;org.apache.hudi&quot;</span><span class="p">).</span>
+    <span class="n">option</span><span class="p">(</span><span class="nc">DataSourceWriteOptions</span><span class="p">.</span><span class="nc">OPERATION_OPT_KEY</span><span class="p">,</span> <span class="nc">DataSourceWriteOptions</span><span class="p">.</span><span class="nc">INSERT_OPERATION_OPT_VAL</span><span class="p">).</span>
+    <span class="n">options</span><span class="p">(</span><span class="n">hudiOptions</span><span class="p">).</span>
+    <span class="n">mode</span><span class="p">(</span><span class="nc">SaveMode</span><span class="p">.</span><span class="nc">Overwrite</span><span class="p">).</span>
+    <span class="n">save</span><span class="p">(</span><span class="s">&quot;s3://hudi-sharkech/myhudidataset_scala/&quot;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -15071,12 +15084,12 @@ var element = document.getElementById('ac2c77ad-349a-442b-90b4-56983f613c0e');
 
 
 
-<div id="b4b302c5-c0a8-4c77-8998-c9991d3dc49e" class="jupyter-widgets jp-OutputArea-output ">
+<div id="0ea0f7b4-d98a-4809-b00c-ea794b073d0b" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('b4b302c5-c0a8-4c77-8998-c9991d3dc49e');
+var element = document.getElementById('0ea0f7b4-d98a-4809-b00c-ea794b073d0b');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "819020d47d764aeb9706b9151ee4a9a9", "version_major": 2, "version_minor": 0}
+{"model_id": "7a0a2feb36a647b1b87129143ff6d5d7", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -15093,9 +15106,9 @@ var element = document.getElementById('b4b302c5-c0a8-4c77-8998-c9991d3dc49e');
 
 
 
-<div id="ba6b0a9b-7be2-4836-ad7d-89ca3ccd7426" class="jupyter-widgets jp-OutputArea-output ">
+<div id="5850e5b2-d96a-4c9b-adb6-639ba5aa8bd9" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('ba6b0a9b-7be2-4836-ad7d-89ca3ccd7426');
+var element = document.getElementById('5850e5b2-d96a-4c9b-adb6-639ba5aa8bd9');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "", "version_major": 2, "version_minor": 0}
@@ -15149,12 +15162,12 @@ var element = document.getElementById('ba6b0a9b-7be2-4836-ad7d-89ca3ccd7426');
 
 
 
-<div id="3a28e23c-4de1-4af8-81e3-01047fb24831" class="jupyter-widgets jp-OutputArea-output ">
+<div id="9c68c20f-36cd-4a13-82fc-d915e12f65a7" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('3a28e23c-4de1-4af8-81e3-01047fb24831');
+var element = document.getElementById('9c68c20f-36cd-4a13-82fc-d915e12f65a7');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "36ef31c6ad254282976644e7338ce5b7", "version_major": 2, "version_minor": 0}
+{"model_id": "fc5c26699aeb46a4a93cbcff95968c57", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -15171,9 +15184,9 @@ var element = document.getElementById('3a28e23c-4de1-4af8-81e3-01047fb24831');
 
 
 
-<div id="c7eb79d0-1fca-4953-b75c-e3c40ee947eb" class="jupyter-widgets jp-OutputArea-output ">
+<div id="961d2283-1f5e-4c29-b12a-d07ea7306987" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('c7eb79d0-1fca-4953-b75c-e3c40ee947eb');
+var element = document.getElementById('961d2283-1f5e-4c29-b12a-d07ea7306987');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "", "version_major": 2, "version_minor": 0}
@@ -15193,12 +15206,12 @@ var element = document.getElementById('c7eb79d0-1fca-4953-b75c-e3c40ee947eb');
 +---+------------------+-------------------+--------------------+----------------------+--------------------+
 | id|_hoodie_record_key|_hoodie_commit_time|_hoodie_commit_seqno|_hoodie_partition_path|   _hoodie_file_name|
 +---+------------------+-------------------+--------------------+----------------------+--------------------+
-|  1|                 1|     20211110133114|  20211110133114_0_1|               default|2526da78-2eaa-448...|
-|  2|                 2|     20211110133114|  20211110133114_0_4|               default|2526da78-2eaa-448...|
-|  3|                 3|     20211110133114|  20211110133114_0_2|               default|2526da78-2eaa-448...|
-|  4|                 4|     20211110133114|  20211110133114_0_5|               default|2526da78-2eaa-448...|
-|  5|                 5|     20211110133114|  20211110133114_0_3|               default|2526da78-2eaa-448...|
-|  6|                 6|     20211110133114|  20211110133114_0_6|               default|2526da78-2eaa-448...|
+|  1|                 1|     20211110163043|  20211110163043_0_1|               default|3cb32ae1-d57c-43f...|
+|  2|                 2|     20211110163043|  20211110163043_0_4|               default|3cb32ae1-d57c-43f...|
+|  3|                 3|     20211110163043|  20211110163043_0_2|               default|3cb32ae1-d57c-43f...|
+|  4|                 4|     20211110163043|  20211110163043_0_5|               default|3cb32ae1-d57c-43f...|
+|  5|                 5|     20211110163043|  20211110163043_0_3|               default|3cb32ae1-d57c-43f...|
+|  6|                 6|     20211110163043|  20211110163043_0_6|               default|3cb32ae1-d57c-43f...|
 +---+------------------+-------------------+--------------------+----------------------+--------------------+
 
 </pre>
@@ -15256,12 +15269,12 @@ var element = document.getElementById('c7eb79d0-1fca-4953-b75c-e3c40ee947eb');
 
 
 
-<div id="9868421a-89d4-4dda-afcc-ffbf029a070d" class="jupyter-widgets jp-OutputArea-output ">
+<div id="0eec1c7c-00b0-427e-a415-11e6eb434b4e" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('9868421a-89d4-4dda-afcc-ffbf029a070d');
+var element = document.getElementById('0eec1c7c-00b0-427e-a415-11e6eb434b4e');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "ba4a03f3727e48b688e5e69fcb63557d", "version_major": 2, "version_minor": 0}
+{"model_id": "418a0927a5834a80bcd18b2deefdf2d8", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -15278,9 +15291,9 @@ var element = document.getElementById('9868421a-89d4-4dda-afcc-ffbf029a070d');
 
 
 
-<div id="f6dbb1a2-b972-4c84-8911-ef6acfa3af18" class="jupyter-widgets jp-OutputArea-output ">
+<div id="3bcdad3b-0543-469a-bb93-955935e32042" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('f6dbb1a2-b972-4c84-8911-ef6acfa3af18');
+var element = document.getElementById('3bcdad3b-0543-469a-bb93-955935e32042');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "", "version_major": 2, "version_minor": 0}
@@ -15312,7 +15325,13 @@ var element = document.getElementById('f6dbb1a2-b972-4c84-8911-ef6acfa3af18');
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-scala"><pre><span></span><span class="c1">// Upsert the records in updateDF</span>
-<span class="n">updateDF</span><span class="p">.</span><span class="n">write</span><span class="p">.</span><span class="n">format</span><span class="p">(</span><span class="s">&quot;org.apache.hudi&quot;</span><span class="p">).</span><span class="n">option</span><span class="p">(</span><span class="nc">DataSourceWriteOptions</span><span class="p">.</span><span class="nc">OPERATION_OPT_KEY</span><span class="p">,</span> <span class="nc">DataSourceWriteOptions</span><span class="p">.</span><span class="nc">UPSERT_OPERATION_OPT_VAL</span><span class="p">).</span><span class="n">options</span><span class="p">(</span><span class="n">hudiOptions</span><span class="p">).</span><span class="n">mode</span><span class="p">(</span><span class="nc">SaveMode</span><span class="p">.</span><span class="nc">Append</span><span class="p">).</span><span class="n">save</span><span class="p">(</span><span class="s">&quot;s3://hudi-sharkech/myhudidataset_scala/&quot;</span><span class="p">)</span>
+<span class="n">updateDF</span><span class="p">.</span>
+    <span class="n">write</span><span class="p">.</span>
+    <span class="n">format</span><span class="p">(</span><span class="s">&quot;org.apache.hudi&quot;</span><span class="p">).</span>
+    <span class="n">option</span><span class="p">(</span><span class="nc">DataSourceWriteOptions</span><span class="p">.</span><span class="nc">OPERATION_OPT_KEY</span><span class="p">,</span> <span class="nc">DataSourceWriteOptions</span><span class="p">.</span><span class="nc">UPSERT_OPERATION_OPT_VAL</span><span class="p">).</span>
+    <span class="n">options</span><span class="p">(</span><span class="n">hudiOptions</span><span class="p">).</span>
+    <span class="n">mode</span><span class="p">(</span><span class="nc">SaveMode</span><span class="p">.</span><span class="nc">Append</span><span class="p">).</span>
+    <span class="n">save</span><span class="p">(</span><span class="s">&quot;s3://hudi-sharkech/myhudidataset_scala/&quot;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -15336,12 +15355,12 @@ var element = document.getElementById('f6dbb1a2-b972-4c84-8911-ef6acfa3af18');
 
 
 
-<div id="f2eb1250-d1d7-4c74-8273-2f27831b4b7e" class="jupyter-widgets jp-OutputArea-output ">
+<div id="77b7dcca-fa47-4450-bbb5-e4d75f401098" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('f2eb1250-d1d7-4c74-8273-2f27831b4b7e');
+var element = document.getElementById('77b7dcca-fa47-4450-bbb5-e4d75f401098');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "1958d1e23e6746618cb537968d88f662", "version_major": 2, "version_minor": 0}
+{"model_id": "21af0332d97d4641aab1fe6503f711da", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -15358,9 +15377,9 @@ var element = document.getElementById('f2eb1250-d1d7-4c74-8273-2f27831b4b7e');
 
 
 
-<div id="7c2a017b-7154-4960-87b3-9c0ab99c8e25" class="jupyter-widgets jp-OutputArea-output ">
+<div id="64f87117-0f7c-4bfe-ac8a-9009ab5dc273" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('7c2a017b-7154-4960-87b3-9c0ab99c8e25');
+var element = document.getElementById('64f87117-0f7c-4bfe-ac8a-9009ab5dc273');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "", "version_major": 2, "version_minor": 0}
@@ -15409,12 +15428,12 @@ var element = document.getElementById('7c2a017b-7154-4960-87b3-9c0ab99c8e25');
 
 
 
-<div id="7171a836-eb20-445e-9b77-83e05b56f74b" class="jupyter-widgets jp-OutputArea-output ">
+<div id="20d2c64a-42ab-410c-a597-24a814e1326f" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('7171a836-eb20-445e-9b77-83e05b56f74b');
+var element = document.getElementById('20d2c64a-42ab-410c-a597-24a814e1326f');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "7dd8da890b3c4857b8cccd59031df631", "version_major": 2, "version_minor": 0}
+{"model_id": "2f49bcca78c3488283ca2160f808ae06", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -15431,9 +15450,9 @@ var element = document.getElementById('7171a836-eb20-445e-9b77-83e05b56f74b');
 
 
 
-<div id="ac493f05-9f54-4c5b-b41f-9cf5f34b8642" class="jupyter-widgets jp-OutputArea-output ">
+<div id="79085e5d-3725-454a-b880-cbe71450e212" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('ac493f05-9f54-4c5b-b41f-9cf5f34b8642');
+var element = document.getElementById('79085e5d-3725-454a-b880-cbe71450e212');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "", "version_major": 2, "version_minor": 0}
@@ -15517,12 +15536,12 @@ var element = document.getElementById('ac493f05-9f54-4c5b-b41f-9cf5f34b8642');
 
 
 
-<div id="1b7269af-0382-4119-98d2-ff222c860f25" class="jupyter-widgets jp-OutputArea-output ">
+<div id="3ff7e863-7a6d-4889-b77f-d6a4a0a9b95f" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('1b7269af-0382-4119-98d2-ff222c860f25');
+var element = document.getElementById('3ff7e863-7a6d-4889-b77f-d6a4a0a9b95f');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "e52980480daa4f42bc42d2b7876bdaa1", "version_major": 2, "version_minor": 0}
+{"model_id": "7aa041fd2d8d419e867b787456901d63", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -15539,9 +15558,9 @@ var element = document.getElementById('1b7269af-0382-4119-98d2-ff222c860f25');
 
 
 
-<div id="2a708b4b-f506-4757-9a47-39497b399b26" class="jupyter-widgets jp-OutputArea-output ">
+<div id="b54ac9a8-5514-408f-9e21-c6cf72aba0ab" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('2a708b4b-f506-4757-9a47-39497b399b26');
+var element = document.getElementById('b54ac9a8-5514-408f-9e21-c6cf72aba0ab');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "", "version_major": 2, "version_minor": 0}
@@ -15573,7 +15592,13 @@ var element = document.getElementById('2a708b4b-f506-4757-9a47-39497b399b26');
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-scala"><pre><span></span><span class="c1">// Upsert the records in updateDF</span>
-<span class="n">updateDF</span><span class="p">.</span><span class="n">write</span><span class="p">.</span><span class="n">format</span><span class="p">(</span><span class="s">&quot;org.apache.hudi&quot;</span><span class="p">).</span><span class="n">option</span><span class="p">(</span><span class="nc">DataSourceWriteOptions</span><span class="p">.</span><span class="nc">OPERATION_OPT_KEY</span><span class="p">,</span> <span class="nc">DataSourceWriteOptions</span><span class="p">.</span><span class="nc">UPSERT_OPERATION_OPT_VAL</span><span class="p">).</span><span class="n">options</span><span class="p">(</span><span class="n">hudiOptions</span><span class="p">).</span><span class="n">mode</span><span class="p">(</span><span class="nc">SaveMode</span><span class="p">.</span><span class="nc">Append</span><span class="p">).</span><span class="n">save</span><span class="p">(</span><span class="s">&quot;s3://hudi-sharkech/myhudidataset_scala/&quot;</span><span class="p">)</span>
+<span class="n">updateDF</span><span class="p">.</span>
+    <span class="n">write</span><span class="p">.</span>
+    <span class="n">format</span><span class="p">(</span><span class="s">&quot;org.apache.hudi&quot;</span><span class="p">).</span>
+    <span class="n">option</span><span class="p">(</span><span class="nc">DataSourceWriteOptions</span><span class="p">.</span><span class="nc">OPERATION_OPT_KEY</span><span class="p">,</span> <span class="nc">DataSourceWriteOptions</span><span class="p">.</span><span class="nc">UPSERT_OPERATION_OPT_VAL</span><span class="p">).</span>
+    <span class="n">options</span><span class="p">(</span><span class="n">hudiOptions</span><span class="p">).</span>
+    <span class="n">mode</span><span class="p">(</span><span class="nc">SaveMode</span><span class="p">.</span><span class="nc">Append</span><span class="p">).</span>
+    <span class="n">save</span><span class="p">(</span><span class="s">&quot;s3://hudi-sharkech/myhudidataset_scala/&quot;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -15597,12 +15622,12 @@ var element = document.getElementById('2a708b4b-f506-4757-9a47-39497b399b26');
 
 
 
-<div id="d569c748-8ec2-46f7-ba03-e2d924bb8c39" class="jupyter-widgets jp-OutputArea-output ">
+<div id="58cbb6ba-7374-4296-b0b7-399fedc3a62e" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('d569c748-8ec2-46f7-ba03-e2d924bb8c39');
+var element = document.getElementById('58cbb6ba-7374-4296-b0b7-399fedc3a62e');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "1b6c699c641e41d2829542f028684fef", "version_major": 2, "version_minor": 0}
+{"model_id": "08ca1b2ed9e348a38cc196ebace22831", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -15619,9 +15644,9 @@ var element = document.getElementById('d569c748-8ec2-46f7-ba03-e2d924bb8c39');
 
 
 
-<div id="269274e3-5993-4601-8aa7-1a9d1c5dbec7" class="jupyter-widgets jp-OutputArea-output ">
+<div id="03b02f60-ef71-47ba-8b63-a0832b728498" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('269274e3-5993-4601-8aa7-1a9d1c5dbec7');
+var element = document.getElementById('03b02f60-ef71-47ba-8b63-a0832b728498');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "", "version_major": 2, "version_minor": 0}
@@ -15670,12 +15695,12 @@ var element = document.getElementById('269274e3-5993-4601-8aa7-1a9d1c5dbec7');
 
 
 
-<div id="1c6b2bb0-f1ba-4485-a10b-1026eacb3f95" class="jupyter-widgets jp-OutputArea-output ">
+<div id="f08b5a15-6165-40e1-923f-6147b1ddf02a" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('1c6b2bb0-f1ba-4485-a10b-1026eacb3f95');
+var element = document.getElementById('f08b5a15-6165-40e1-923f-6147b1ddf02a');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "e4ede8bd06204bdab595c6ae744e336a", "version_major": 2, "version_minor": 0}
+{"model_id": "49fff5bfbe604829b47c86c4aa436d43", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -15692,9 +15717,9 @@ var element = document.getElementById('1c6b2bb0-f1ba-4485-a10b-1026eacb3f95');
 
 
 
-<div id="699efef7-1f4d-44f3-bad5-0b7dff3bf4d5" class="jupyter-widgets jp-OutputArea-output ">
+<div id="b9408f24-f316-42db-86d3-c674529c67f1" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('699efef7-1f4d-44f3-bad5-0b7dff3bf4d5');
+var element = document.getElementById('b9408f24-f316-42db-86d3-c674529c67f1');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "", "version_major": 2, "version_minor": 0}
@@ -15778,12 +15803,12 @@ var element = document.getElementById('699efef7-1f4d-44f3-bad5-0b7dff3bf4d5');
 
 
 
-<div id="71e9a22c-bcac-4288-903a-f683b3053b99" class="jupyter-widgets jp-OutputArea-output ">
+<div id="0c0dca5a-50de-4598-af9c-ec79f744e36a" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('71e9a22c-bcac-4288-903a-f683b3053b99');
+var element = document.getElementById('0c0dca5a-50de-4598-af9c-ec79f744e36a');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "4bafefaf64f64b77964a5551f70bded4", "version_major": 2, "version_minor": 0}
+{"model_id": "ca71dc6086f841bba6e52d75a8e11483", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -15800,9 +15825,9 @@ var element = document.getElementById('71e9a22c-bcac-4288-903a-f683b3053b99');
 
 
 
-<div id="36557bec-a0d9-4ad6-a781-910e981cc8ef" class="jupyter-widgets jp-OutputArea-output ">
+<div id="7ac4b3fa-30e9-4b5f-b0cd-f15db593819f" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('36557bec-a0d9-4ad6-a781-910e981cc8ef');
+var element = document.getElementById('7ac4b3fa-30e9-4b5f-b0cd-f15db593819f');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "", "version_major": 2, "version_minor": 0}
@@ -15822,9 +15847,9 @@ var element = document.getElementById('36557bec-a0d9-4ad6-a781-910e981cc8ef');
 +-------------------+
 |_hoodie_commit_time|
 +-------------------+
-|     20211110133114|
-|     20211110133137|
-|     20211110133208|
+|     20211110163043|
+|     20211110163109|
+|     20211110163140|
 +-------------------+
 
 </pre>
@@ -15841,20 +15866,610 @@ var element = document.getElementById('36557bec-a0d9-4ad6-a781-910e981cc8ef');
 <p>notice that we have 3 unique commit times corresponding to the 3 commits we have performed so far</p>
 <p>Hudi provides a query type <code>incremental</code> which can identify all of the records that have changed between given commit times</p>
 <p>The example below will identify all of the records that have changed since our first commit</p>
+<p>Note the options we set in the variable <code>incremental_read_options</code></p>
+<ul>
+<li><code>QUERY_TYPE_OPT_KEY</code> is set to <code>QUERY_TYPE_INCREMENTAL_OPT_VAL</code> </li>
+<li><code>BEGIN_INSTANTTIME_OPT_KEY</code> is set to the time of our fist commit</li>
+<li>Since we do not specify an <code>END_INSTANTTIME_OPT_KEY</code> this query will return all of the records that have changed since the <code>BEGIN_INSTANTTIME_OPT_KEY</code></li>
+</ul>
+<p><em>Note</em> adjust the <code>BEGIN_INSTANTTIME_OPT_KEY</code> based on the results of the last query. Set <code>BEGIN_INSTANTTIME_OPT_KEY</code> to the time of the first Hudi commit</p>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-scala"><pre><span></span>
+<div class=" highlight hl-scala"><pre><span></span><span class="kd">val</span> <span class="n">incremental_read_options</span> <span class="o">=</span> <span class="nc">Map</span><span class="p">[</span><span class="nc">String</span><span class="p">,</span><span class="nc">String</span><span class="p">](</span>
+    <span class="nc">DataSourceReadOptions</span><span class="p">.</span><span class="nc">QUERY_TYPE_OPT_KEY</span> <span class="o">-&gt;</span> <span class="nc">QUERY_TYPE_INCREMENTAL_OPT_VAL</span><span class="p">,</span>
+    <span class="nc">DataSourceReadOptions</span><span class="p">.</span><span class="nc">BEGIN_INSTANTTIME_OPT_KEY</span> <span class="o">-&gt;</span> <span class="s">&quot;20211110163043&quot;</span>
+<span class="p">)</span>
+
+<span class="kd">val</span> <span class="n">tripsIncrementalDF</span> <span class="o">=</span> <span class="n">spark</span><span class="p">.</span>
+    <span class="n">read</span><span class="p">.</span><span class="n">format</span><span class="p">(</span><span class="s">&quot;hudi&quot;</span><span class="p">).</span>
+    <span class="n">options</span><span class="p">(</span><span class="n">incremental_read_options</span><span class="p">).</span>
+    <span class="n">load</span><span class="p">(</span><span class="s">&quot;s3://hudi-sharkech/myhudidataset_scala&quot;</span> <span class="o">+</span> <span class="s">&quot;/*/*&quot;</span><span class="p">)</span>
+
+<span class="n">tripsIncrementalDF</span><span class="p">.</span><span class="n">select</span><span class="p">(</span><span class="s">&quot;id&quot;</span><span class="p">,</span> <span class="s">&quot;name&quot;</span><span class="p">,</span> <span class="s">&quot;create_date&quot;</span><span class="p">,</span> <span class="s">&quot;last_update_time&quot;</span><span class="p">,</span> <span class="s">&quot;_hoodie_commit_time&quot;</span><span class="p">).</span><span class="n">orderBy</span><span class="p">(</span><span class="s">&quot;_hoodie_commit_time&quot;</span><span class="p">).</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+
+
+
+<div id="bfb0998d-3149-4495-b367-63101179d837" class="jupyter-widgets jp-OutputArea-output ">
+<script type="text/javascript">
+var element = document.getElementById('bfb0998d-3149-4495-b367-63101179d837');
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "f4e9fd4b287a4842a235567b8ef60928", "version_major": 2, "version_minor": 0}
+</script>
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+
+
+
+<div id="2f7ef0bd-6a29-45c9-a8d7-cfcb3db35b6b" class="jupyter-widgets jp-OutputArea-output ">
+<script type="text/javascript">
+var element = document.getElementById('2f7ef0bd-6a29-45c9-a8d7-cfcb3db35b6b');
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "", "version_major": 2, "version_minor": 0}
+</script>
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>incremental_read_options: scala.collection.immutable.Map[String,String] = Map(hoodie.datasource.query.type -&gt; incremental, hoodie.datasource.read.begin.instanttime -&gt; 20211110163043)
+tripsIncrementalDF: org.apache.spark.sql.DataFrame = [_hoodie_commit_time: string, _hoodie_commit_seqno: string ... 7 more fields]
++---+-------------------+-----------+-------------------+-------------------+
+| id|               name|create_date|   last_update_time|_hoodie_commit_time|
++---+-------------------+-----------+-------------------+-------------------+
+|  7|              Kelly| 2020-01-02|2020-01-02 00:00:00|     20211110163109|
+|  1|Christopher Sharkey| 2020-01-01|2020-01-03 00:00:00|     20211110163140|
+|  8|               Ella| 2020-01-03|2020-01-03 00:00:00|     20211110163140|
++---+-------------------+-----------+-------------------+-------------------+
+
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Point-in-Time-query">Point in Time query<a class="anchor-link" href="#Point-in-Time-query">&#182;</a></h2><p>Building on our incremental query we can specify a specific range for the <code>BEGIN_INSTANTTIME_OPT_KEY</code> and <code>END_INSTANTTIME_OPT_KEY</code> aka a point in time query</p>
+<p>This will the show the changes at specific points in time</p>
+<p>For the first point in time query we can set the <code>BEGIN_INSTANTTIME_OPT_KEY</code> to a time before our first commit and <code>END_INSTANTTIME_OPT_KEY</code> to the time of our first commit</p>
+<p><em>Note</em> adjust the <code>END_INSTANTTIME_OPT_KEY</code> to the the time of our fist commit</p>
+
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-scala"><pre><span></span><span class="kd">val</span> <span class="n">incremental_read_options</span> <span class="o">=</span> <span class="nc">Map</span><span class="p">[</span><span class="nc">String</span><span class="p">,</span><span class="nc">String</span><span class="p">](</span>
+    <span class="nc">DataSourceReadOptions</span><span class="p">.</span><span class="nc">QUERY_TYPE_OPT_KEY</span> <span class="o">-&gt;</span> <span class="nc">QUERY_TYPE_INCREMENTAL_OPT_VAL</span><span class="p">,</span>
+    <span class="nc">DataSourceReadOptions</span><span class="p">.</span><span class="nc">BEGIN_INSTANTTIME_OPT_KEY</span> <span class="o">-&gt;</span> <span class="s">&quot;20211105180300&quot;</span><span class="p">,</span>
+    <span class="nc">DataSourceReadOptions</span><span class="p">.</span><span class="nc">END_INSTANTTIME_OPT_KEY</span> <span class="o">-&gt;</span> <span class="s">&quot;20211110163043&quot;</span>
+<span class="p">)</span>
+
+<span class="kd">val</span> <span class="n">tripsIncrementalDF</span> <span class="o">=</span> <span class="n">spark</span><span class="p">.</span>
+    <span class="n">read</span><span class="p">.</span><span class="n">format</span><span class="p">(</span><span class="s">&quot;hudi&quot;</span><span class="p">).</span>
+    <span class="n">options</span><span class="p">(</span><span class="n">incremental_read_options</span><span class="p">).</span>
+    <span class="n">load</span><span class="p">(</span><span class="s">&quot;s3://hudi-sharkech/myhudidataset_scala&quot;</span> <span class="o">+</span> <span class="s">&quot;/*/*&quot;</span><span class="p">)</span>
+
+<span class="n">tripsIncrementalDF</span><span class="p">.</span><span class="n">select</span><span class="p">(</span><span class="s">&quot;id&quot;</span><span class="p">,</span> <span class="s">&quot;name&quot;</span><span class="p">,</span> <span class="s">&quot;create_date&quot;</span><span class="p">,</span> <span class="s">&quot;last_update_time&quot;</span><span class="p">,</span> <span class="s">&quot;_hoodie_commit_time&quot;</span><span class="p">).</span><span class="n">orderBy</span><span class="p">(</span><span class="s">&quot;_hoodie_commit_time&quot;</span><span class="p">).</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+
+
+
+<div id="b7ae47e6-320c-4738-9320-0568cfddaa25" class="jupyter-widgets jp-OutputArea-output ">
+<script type="text/javascript">
+var element = document.getElementById('b7ae47e6-320c-4738-9320-0568cfddaa25');
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "78edd835c78441398e69a6a943e97abc", "version_major": 2, "version_minor": 0}
+</script>
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+
+
+
+<div id="cb8faea5-4134-4a94-863b-594c38169f94" class="jupyter-widgets jp-OutputArea-output ">
+<script type="text/javascript">
+var element = document.getElementById('cb8faea5-4134-4a94-863b-594c38169f94');
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "", "version_major": 2, "version_minor": 0}
+</script>
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>incremental_read_options: scala.collection.immutable.Map[String,String] = Map(hoodie.datasource.query.type -&gt; incremental, hoodie.datasource.read.begin.instanttime -&gt; 20211105180300, hoodie.datasource.read.end.instanttime -&gt; 20211110163043)
+tripsIncrementalDF: org.apache.spark.sql.DataFrame = [_hoodie_commit_time: string, _hoodie_commit_seqno: string ... 7 more fields]
++---+-----+-----------+-------------------+-------------------+
+| id| name|create_date|   last_update_time|_hoodie_commit_time|
++---+-----+-----------+-------------------+-------------------+
+|  1|Chris| 2020-01-01|2020-01-01 00:00:00|     20211110163043|
+|  3| Emma| 2020-01-01|2020-01-01 00:00:00|     20211110163043|
+|  5| Eric| 2020-01-01|2020-01-01 00:00:00|     20211110163043|
+|  2| Will| 2020-01-01|2020-01-01 00:00:00|     20211110163043|
+|  4| John| 2020-01-01|2020-01-01 00:00:00|     20211110163043|
+|  6| Adam| 2020-01-01|2020-01-01 00:00:00|     20211110163043|
++---+-----+-----------+-------------------+-------------------+
+
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>for the second point in time query we can set the <code>END_INSTANTTIME_OPT_KEY</code> equal to the time of our first commit and <code>END_INSTANTTIME_OPT_KEY</code> equal to the time of our second commit</p>
+<p><em>Note</em> adjust the <code>BEGIN_INSTANTTIME_OPT_KEY</code> to the the time of our first commit and adjust the <code>END_INSTANTTIME_OPT_KEY</code> to the the time of our second commit</p>
+
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-scala"><pre><span></span><span class="kd">val</span> <span class="n">incremental_read_options</span> <span class="o">=</span> <span class="nc">Map</span><span class="p">[</span><span class="nc">String</span><span class="p">,</span><span class="nc">String</span><span class="p">](</span>
+    <span class="nc">DataSourceReadOptions</span><span class="p">.</span><span class="nc">QUERY_TYPE_OPT_KEY</span> <span class="o">-&gt;</span> <span class="nc">QUERY_TYPE_INCREMENTAL_OPT_VAL</span><span class="p">,</span>
+    <span class="nc">DataSourceReadOptions</span><span class="p">.</span><span class="nc">BEGIN_INSTANTTIME_OPT_KEY</span> <span class="o">-&gt;</span> <span class="s">&quot;20211110163043&quot;</span><span class="p">,</span>
+    <span class="nc">DataSourceReadOptions</span><span class="p">.</span><span class="nc">END_INSTANTTIME_OPT_KEY</span> <span class="o">-&gt;</span> <span class="s">&quot;20211110163109&quot;</span>
+<span class="p">)</span>
+
+<span class="kd">val</span> <span class="n">tripsIncrementalDF</span> <span class="o">=</span> <span class="n">spark</span><span class="p">.</span>
+    <span class="n">read</span><span class="p">.</span><span class="n">format</span><span class="p">(</span><span class="s">&quot;hudi&quot;</span><span class="p">).</span>
+    <span class="n">options</span><span class="p">(</span><span class="n">incremental_read_options</span><span class="p">).</span>
+    <span class="n">load</span><span class="p">(</span><span class="s">&quot;s3://hudi-sharkech/myhudidataset_scala&quot;</span> <span class="o">+</span> <span class="s">&quot;/*/*&quot;</span><span class="p">)</span>
+
+<span class="n">tripsIncrementalDF</span><span class="p">.</span><span class="n">select</span><span class="p">(</span><span class="s">&quot;id&quot;</span><span class="p">,</span> <span class="s">&quot;name&quot;</span><span class="p">,</span> <span class="s">&quot;create_date&quot;</span><span class="p">,</span> <span class="s">&quot;last_update_time&quot;</span><span class="p">,</span> <span class="s">&quot;_hoodie_commit_time&quot;</span><span class="p">).</span><span class="n">orderBy</span><span class="p">(</span><span class="s">&quot;_hoodie_commit_time&quot;</span><span class="p">).</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+
+
+
+<div id="84b5118a-3ff2-4e28-8c40-68ac78c372d2" class="jupyter-widgets jp-OutputArea-output ">
+<script type="text/javascript">
+var element = document.getElementById('84b5118a-3ff2-4e28-8c40-68ac78c372d2');
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "1161d6f9a00b4f548dedceeacc241325", "version_major": 2, "version_minor": 0}
+</script>
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+
+
+
+<div id="281ab91c-cb90-4413-96aa-6dd64c7fe8ad" class="jupyter-widgets jp-OutputArea-output ">
+<script type="text/javascript">
+var element = document.getElementById('281ab91c-cb90-4413-96aa-6dd64c7fe8ad');
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "", "version_major": 2, "version_minor": 0}
+</script>
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>incremental_read_options: scala.collection.immutable.Map[String,String] = Map(hoodie.datasource.query.type -&gt; incremental, hoodie.datasource.read.begin.instanttime -&gt; 20211110163043, hoodie.datasource.read.end.instanttime -&gt; 20211110163109)
+tripsIncrementalDF: org.apache.spark.sql.DataFrame = [_hoodie_commit_time: string, _hoodie_commit_seqno: string ... 7 more fields]
++---+-------------+-----------+-------------------+-------------------+
+| id|         name|create_date|   last_update_time|_hoodie_commit_time|
++---+-------------+-----------+-------------------+-------------------+
+|  1|Chris Sharkey| 2020-01-01|2020-01-02 00:00:00|     20211110163109|
+|  7|        Kelly| 2020-01-02|2020-01-02 00:00:00|     20211110163109|
++---+-------------+-----------+-------------------+-------------------+
+
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Delete-data">Delete data<a class="anchor-link" href="#Delete-data">&#182;</a></h2>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-scala"><pre><span></span><span class="c1">// Create a new data frame</span>
+<span class="kd">val</span> <span class="n">deleteDF</span> <span class="o">=</span> <span class="nc">Seq</span><span class="p">(</span>
+    <span class="p">(</span><span class="s">&quot;1&quot;</span><span class="p">,</span> <span class="s">&quot;Christopher Sharkey&quot;</span><span class="p">,</span> <span class="s">&quot;2020-01-01&quot;</span><span class="p">,</span> <span class="nc">Timestamp</span><span class="p">.</span><span class="n">valueOf</span><span class="p">(</span><span class="s">&quot;2020-01-03 00:00:00&quot;</span><span class="p">)),</span>
+    <span class="p">(</span><span class="s">&quot;8&quot;</span><span class="p">,</span> <span class="s">&quot;Ella&quot;</span><span class="p">,</span> <span class="s">&quot;2020-01-03&quot;</span><span class="p">,</span> <span class="nc">Timestamp</span><span class="p">.</span><span class="n">valueOf</span><span class="p">(</span><span class="s">&quot;2020-01-03 00:00:00&quot;</span><span class="p">))</span>
+<span class="p">).</span><span class="n">toDF</span><span class="p">(</span>
+    <span class="s">&quot;id&quot;</span><span class="p">,</span>
+    <span class="s">&quot;name&quot;</span><span class="p">,</span>
+    <span class="s">&quot;create_date&quot;</span><span class="p">,</span>
+    <span class="s">&quot;last_update_time&quot;</span>
+<span class="p">)</span>
+
+<span class="c1">// inputDF.show()</span>
+<span class="c1">// inputDF.printSchema()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+
+
+
+<div id="2377f2b1-5596-48a6-9fa5-1e0e6e07e798" class="jupyter-widgets jp-OutputArea-output ">
+<script type="text/javascript">
+var element = document.getElementById('2377f2b1-5596-48a6-9fa5-1e0e6e07e798');
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "46bfc41866774d52ba6e1f40608cbdda", "version_major": 2, "version_minor": 0}
+</script>
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+
+
+
+<div id="c4b2ad5b-33ca-479a-a2fc-b49dd5f0d3be" class="jupyter-widgets jp-OutputArea-output ">
+<script type="text/javascript">
+var element = document.getElementById('c4b2ad5b-33ca-479a-a2fc-b49dd5f0d3be');
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "", "version_major": 2, "version_minor": 0}
+</script>
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>deleteDF: org.apache.spark.sql.DataFrame = [id: string, name: string ... 2 more fields]
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-scala"><pre><span></span><span class="kd">val</span> <span class="n">hudiOptionsDelete</span> <span class="o">=</span> <span class="nc">Map</span><span class="p">[</span><span class="nc">String</span><span class="p">,</span><span class="nc">String</span><span class="p">](</span>
+  <span class="nc">HoodieWriteConfig</span><span class="p">.</span><span class="nc">TABLE_NAME</span> <span class="o">-&gt;</span> <span class="s">&quot;my_hudi_table_scala&quot;</span><span class="p">,</span>
+  <span class="nc">DataSourceWriteOptions</span><span class="p">.</span><span class="nc">RECORDKEY_FIELD_OPT_KEY</span> <span class="o">-&gt;</span> <span class="s">&quot;id&quot;</span><span class="p">,</span>
+  <span class="nc">DataSourceWriteOptions</span><span class="p">.</span><span class="nc">PARTITIONPATH_FIELD_OPT_KEY</span> <span class="o">-&gt;</span> <span class="s">&quot;creation_date&quot;</span><span class="p">,</span>
+  <span class="nc">DataSourceWriteOptions</span><span class="p">.</span><span class="nc">PRECOMBINE_FIELD_OPT_KEY</span> <span class="o">-&gt;</span> <span class="s">&quot;last_update_time&quot;</span><span class="p">,</span>
+  <span class="nc">DataSourceWriteOptions</span><span class="p">.</span><span class="nc">OPERATION_OPT_KEY</span> <span class="o">-&gt;</span> <span class="s">&quot;delete&quot;</span>
+<span class="p">)</span>
+
+<span class="n">inputDF</span><span class="p">.</span>
+    <span class="n">write</span><span class="p">.</span>
+    <span class="n">format</span><span class="p">(</span><span class="s">&quot;org.apache.hudi&quot;</span><span class="p">).</span>
+    <span class="n">options</span><span class="p">(</span><span class="n">hudiOptionsDelete</span><span class="p">).</span>
+    <span class="n">mode</span><span class="p">(</span><span class="nc">SaveMode</span><span class="p">.</span><span class="nc">Append</span><span class="p">).</span>
+    <span class="n">save</span><span class="p">(</span><span class="s">&quot;s3://hudi-sharkech/myhudidataset_scala/&quot;</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+
+
+
+<div id="483f229f-f740-4812-8f1a-3fba5f92b12a" class="jupyter-widgets jp-OutputArea-output ">
+<script type="text/javascript">
+var element = document.getElementById('483f229f-f740-4812-8f1a-3fba5f92b12a');
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "c0c9740d8b584fe7b5b9d9bf0fd41fc3", "version_major": 2, "version_minor": 0}
+</script>
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+
+
+
+<div id="56adcfc6-60fa-42b0-820e-9c523d381c1d" class="jupyter-widgets jp-OutputArea-output ">
+<script type="text/javascript">
+var element = document.getElementById('56adcfc6-60fa-42b0-820e-9c523d381c1d');
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "", "version_major": 2, "version_minor": 0}
+</script>
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>hudiOptionsDelete: scala.collection.immutable.Map[String,String] = Map(hoodie.datasource.write.precombine.field -&gt; last_update_time, hoodie.datasource.write.operation -&gt; delete, hoodie.datasource.write.recordkey.field -&gt; id, hoodie.table.name -&gt; my_hudi_table_scala, hoodie.datasource.write.partitionpath.field -&gt; creation_date)
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-scala"><pre><span></span><span class="c1">// Check that the delete worked</span>
+<span class="kd">val</span> <span class="n">snapshotQueryDF</span> <span class="o">=</span> <span class="n">spark</span><span class="p">.</span><span class="n">read</span><span class="p">.</span><span class="n">format</span><span class="p">(</span><span class="s">&quot;org.apache.hudi&quot;</span><span class="p">).</span><span class="n">load</span><span class="p">(</span><span class="s">&quot;s3://hudi-sharkech/myhudidataset_python&quot;</span> <span class="o">+</span> <span class="s">&quot;/*/*&quot;</span><span class="p">)</span>
+
+<span class="c1">// snapshotQueryDF.show()</span>
+
+<span class="n">snapshotQueryDF</span><span class="p">.</span><span class="n">select</span><span class="p">(</span><span class="s">&quot;id&quot;</span><span class="p">,</span> <span class="s">&quot;name&quot;</span><span class="p">,</span> <span class="s">&quot;create_date&quot;</span><span class="p">,</span> <span class="s">&quot;last_update_time&quot;</span><span class="p">).</span><span class="n">orderBy</span><span class="p">(</span><span class="s">&quot;id&quot;</span><span class="p">).</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+
+
+
+<div id="f814d6f3-b456-4a55-9492-9c2ba2b156cf" class="jupyter-widgets jp-OutputArea-output ">
+<script type="text/javascript">
+var element = document.getElementById('f814d6f3-b456-4a55-9492-9c2ba2b156cf');
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "62133a9a0cee41c1a2e097eac64f723e", "version_major": 2, "version_minor": 0}
+</script>
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+
+
+
+<div id="b449e0e3-bb90-40a2-aa8e-215d69f97faa" class="jupyter-widgets jp-OutputArea-output ">
+<script type="text/javascript">
+var element = document.getElementById('b449e0e3-bb90-40a2-aa8e-215d69f97faa');
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "", "version_major": 2, "version_minor": 0}
+</script>
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>snapshotQueryDF: org.apache.spark.sql.DataFrame = [_hoodie_commit_time: string, _hoodie_commit_seqno: string ... 7 more fields]
++---+-----+-----------+-------------------+
+| id| name|create_date|   last_update_time|
++---+-----+-----------+-------------------+
+|  2| Will| 2020-01-01|2020-01-01 00:00:00|
+|  3| Emma| 2020-01-01|2020-01-01 00:00:00|
+|  4| John| 2020-01-01|2020-01-01 00:00:00|
+|  5| Eric| 2020-01-01|2020-01-01 00:00:00|
+|  6| Adam| 2020-01-01|2020-01-01 00:00:00|
+|  7|Kelly| 2020-01-02|2020-01-02 00:00:00|
++---+-----+-----------+-------------------+
+
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
