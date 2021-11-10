@@ -18,6 +18,8 @@ Notebook [```getting_started.ipynb```][9] is the best place to start. It covers 
 * Point in Time querying
 * Deleting Data
 
+Both a [Python][12] and [Scala][13] notebooks are available. *Note* the Scala notebook is still under development it is ~ 65% complete.
+
 ## Merge on Read
 
 Under development ... I am working on building a similar example to the [```getting_started.ipynb```][9] using merge on read table(s)
@@ -33,3 +35,5 @@ Under development ... I am working on building a similar example to the [```gett
 [9]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/blob/main/getting_started/Hudi%20v0.7.0/getting_started.ipynb
 [10]:https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-notebooks.html
 [11]:https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-studio.html
+[12]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/tree/main/getting_started/Python/Hudi%20v0.7.0
+[13]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/tree/main/getting_started/Scala/Hudi%20v0.7.0
