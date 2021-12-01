@@ -9,8 +9,8 @@ The samples in this repository are designed to run on EMR via. EMR Notebooks or 
 
 You can upload the .ipynb files in this repository directly to the Jupyter enviorments provides by EMR Notebooks / Studio
 
-## Getting Started
-Notebook [```getting_started.ipynb```][9] is the best place to start. It covers working with data via. Hudi specific to **copy on write** tables. The notebook covers
+## Copy on Write
+The notebooks in [copy_on_write][9] is the best place to start. It covers working with data via. Hudi specific to **copy on write** tables. The notebook(s) covers
 * Writing data to S3 
 * Reading data from S3
 * Upserting data
@@ -21,7 +21,7 @@ Notebook [```getting_started.ipynb```][9] is the best place to start. It covers 
 Both a [Python][12] and [Scala][13] notebooks are available.
 ## Merge on Read
 
-Under development ... I am working on building a similar example to the [```getting_started.ipynb```][9] using merge on read table(s)
+Under development ... work in progress
 
 [1]:https://hudi.apache.org/docs/concepts/
 [2]:https://hudi.apache.org/docs/concepts/#timeline
@@ -31,8 +31,8 @@ Under development ... I am working on building a similar example to the [```gett
 [6]:https://hudi.apache.org/docs/concepts/#query-types
 [7]:https://hudi.apache.org/docs/concepts/#copy-on-write-table
 [8]:https://hudi.apache.org/docs/concepts/#merge-on-read-table
-[9]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/blob/main/getting_started/Hudi%20v0.7.0/getting_started.ipynb
+[9]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/tree/main/copy_on_write
 [10]:https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-notebooks.html
 [11]:https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-studio.html
-[12]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/tree/main/getting_started/Python/Hudi%20v0.7.0
-[13]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/tree/main/getting_started/Scala/Hudi%20v0.7.0
+[12]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/blob/main/copy_on_write/Python/Hudi%20v0.7.0
+[13]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/blob/main/copy_on_write/Scala/Hudi%20v0.7.0
