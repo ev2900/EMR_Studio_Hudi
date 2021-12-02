@@ -1,7 +1,9 @@
 # Apache Hudi Examples
 Apache Hudi examples designed to be run on AWS Elastic Map Reduce (EMR) via. EMR Studio and/or EMR Notebook(s).
 
-Important background on key [concepts][1]. If you are new to working with Hudi it is worth reading about Hudi's [timeline][2], [file management][3], [index][4], [table types][5], [query types][6], [copy on write][7], [merge on read][8]
+Important background on key [concepts][1]. If you are new to working with Hudi it is worth reading about Hudi's [timeline][2], [file management][3], [index][4], [table types][5], [query types][6], [copy on write][7], [merge on read][8].
+
+If you are not familiar with the core Hudi concepts or are new to Hudi I **highly** recommend you watch [AWS re:Invent 2019: Insert, upsert, and delete data in Amazon S3 using Amazon][15] it explains all the core conepts well.
 
 ## Enviorment Set Up
 
@@ -48,3 +50,4 @@ The notebook in [merge_on_read][14] is the best next step once you understand th
 [12]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/blob/main/copy_on_write/Python/Hudi%20v0.7.0
 [13]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/blob/main/copy_on_write/Scala/Hudi%20v0.7.0
 [14]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/tree/main/merge_on_read
+[15]:https://www.youtube.com/watch?v=_ckNyL_Nr1A
