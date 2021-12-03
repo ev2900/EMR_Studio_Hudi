@@ -40,7 +40,7 @@ Both a [Python][16] and [Scala][17] notebooks are available.
 ## Future Improvements Planned for this Repository
 * Youtube video - Running the Copy of Write example notebook
 * Youtube video - Merge on Read example notebook
-* Examples for Hudi v0.8.0
+* Code samples using Hudi v0.8.0
 
 [1]:https://hudi.apache.org/docs/concepts/
 [2]:https://hudi.apache.org/docs/concepts/#timeline
