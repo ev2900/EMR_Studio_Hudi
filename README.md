@@ -1,7 +1,9 @@
 # Apache Hudi Examples
 Apache Hudi examples designed to be run on AWS Elastic Map Reduce (EMR) via. EMR Studio and/or EMR Notebook(s).
 
-Important background on key [concepts][1]. If you are new to working with Hudi it is worth reading about Hudi's [timeline][2], [file management][3], [index][4], [table types][5], [query types][6], [copy on write][7], [merge on read][8]
+Important background on key [concepts][1]. If you are new to working with Hudi it is worth reading about Hudi's [timeline][2], [file management][3], [index][4], [table types][5], [query types][6], [copy on write][7], [merge on read][8].
+
+If you are not familiar with the core Hudi concepts or are new to Hudi I **highly** recommend you watch [AWS re:Invent 2019: Insert, upsert, and delete data in Amazon S3 using Amazon][15].
 
 ## Enviorment Set Up
 
@@ -21,7 +23,18 @@ The notebooks in [copy_on_write][9] is the best place to start. It covers workin
 Both a [Python][12] and [Scala][13] notebooks are available.
 ## Merge on Read
 
-Under development ... work in progress
+The notebook in [merge_on_read][14] is the best next step once you understand the [copy_on_write][9] notebook(s). The [merge_on_read][14] notebook covers
+* Writing data to S3
+* Upserting data
+* Snapshot queries
+* Read optimized queries
+* Compaction
+
+## Future Improvements Planned for this Repository
+* Python version of the Merge on [merge_on_read][14] notebook
+* Youtube video - Copy on Write
+* Youtube video - Merge on Read
+* Examples for Hudi v0.8.0
 
 [1]:https://hudi.apache.org/docs/concepts/
 [2]:https://hudi.apache.org/docs/concepts/#timeline
@@ -36,3 +49,5 @@ Under development ... work in progress
 [11]:https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-studio.html
 [12]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/blob/main/copy_on_write/Python/Hudi%20v0.7.0
 [13]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/blob/main/copy_on_write/Scala/Hudi%20v0.7.0
+[14]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/tree/main/merge_on_read
+[15]:https://www.youtube.com/watch?v=_ckNyL_Nr1A
