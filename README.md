@@ -30,8 +30,9 @@ The notebook in [merge_on_read][14] is the best next step once you understand th
 * Read optimized queries
 * Compaction
 
+Both a [Python][16] and [Scala][17] notebooks are available.
+
 ## Future Improvements Planned for this Repository
-* Python version of the Merge on [merge_on_read][14] notebook
 * Youtube video - Copy on Write
 * Youtube video - Merge on Read
 * Examples for Hudi v0.8.0
@@ -51,3 +52,5 @@ The notebook in [merge_on_read][14] is the best next step once you understand th
 [13]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/blob/main/copy_on_write/Scala/Hudi%20v0.7.0
 [14]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/tree/main/merge_on_read
 [15]:https://www.youtube.com/watch?v=_ckNyL_Nr1A
+[16]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/tree/main/merge_on_read/Python/Hudi%20v0.7.0
+[17]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/tree/main/merge_on_read/Scala/Hudi%20v0.7.0
