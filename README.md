@@ -33,8 +33,6 @@ The notebook in [merge_on_read][14] is the best next step once you understand th
 Both a [Python][16] and [Scala][17] notebooks are available.
 
 ## Future Improvements Planned for this Repository
-* Youtube video - Running the Copy of Write example notebook
-* Youtube video - Merge on Read example notebook
 * Code samples using Hudi v0.8.0
 
 [1]:https://hudi.apache.org/docs/concepts/
