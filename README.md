@@ -3,8 +3,9 @@ Apache Hudi examples designed to be run on AWS Elastic Map Reduce (EMR) via. EMR
 
 Youtube video(s)
 1. [Hudi Key Concepts][15]
-2. Running the Copy of Write example notebook
-3. Running the Merge on Read example notebook
+2. [Create an EMR Notebook][18]
+3. Running the Copy of Write example notebook
+4. Running the Merge on Read example notebook
 
 Also please reference background on key [concepts][1]. If you are new to working with Hudi it is worth reading about Hudi's [timeline][2], [file management][3], [index][4], [table types][5], [query types][6], [copy on write][7], [merge on read][8].
 
@@ -59,3 +60,4 @@ Both a [Python][16] and [Scala][17] notebooks are available.
 [15]:https://www.youtube.com/watch?v=_ckNyL_Nr1A
 [16]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/tree/main/merge_on_read/Python/Hudi%20v0.7.0
 [17]:https://github.com/ev2900/Hudi_Elastic_Map_Reduce/tree/main/merge_on_read/Scala/Hudi%20v0.7.0
+[18]:https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-notebooks-create.html
