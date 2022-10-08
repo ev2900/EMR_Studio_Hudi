@@ -21,8 +21,8 @@ The notebooks in [copy_on_write](https://github.com/ev2900/Hudi_Elastic_Map_Redu
 * Deleting Data
 
 Both a [Python](https://github.com/ev2900/Hudi_Elastic_Map_Reduce/blob/main/copy_on_write/Python/copy_on_write_python.ipynb) and [Scala](https://github.com/ev2900/Hudi_Elastic_Map_Reduce/blob/main/copy_on_write/Scala/copy_on_write_scala.ipynb) notebooks are available.
-## Merge on Read
 
+## Merge on Read
 The notebook in [merge_on_read](https://github.com/ev2900/Hudi_Elastic_Map_Reduce/tree/main/merge_on_read) is the best next step once you understand the [copy_on_write](https://github.com/ev2900/Hudi_Elastic_Map_Reduce/tree/main/copy_on_write) notebook(s). The [merge_on_read](https://github.com/ev2900/Hudi_Elastic_Map_Reduce/tree/main/merge_on_read) notebook covers
 * Writing data to S3
 * Upserting data
@@ -31,3 +31,7 @@ The notebook in [merge_on_read](https://github.com/ev2900/Hudi_Elastic_Map_Reduc
 * Compaction
 
 Both a [Python](https://github.com/ev2900/Hudi_Elastic_Map_Reduce/tree/main/merge_on_read/Python/merge_on_read_python.ipynb) and [Scala](https://github.com/ev2900/Hudi_Elastic_Map_Reduce/tree/main/merge_on_read/Scala/merge_on_read_scala.ipynb) notebooks are available.
+
+## Future Imporvement to this Repo
+* Hudi SQL example(s)
+* Hudi time travel example(s)
