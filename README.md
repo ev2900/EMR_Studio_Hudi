@@ -1,4 +1,7 @@
 # Apache Hudi Examples
+
+<img width="85" alt="map-user" src="https://img.shields.io/badge/views-0000-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-0000-green">
+
 Apache Hudi examples designed to be run on AWS Elastic Map Reduce (EMR) via. EMR Studio and/or EMR Notebook(s).
 
 Reference background on key [concepts](https://hudi.apache.org/docs/concepts/). If you are new to working with Hudi it is worth reading about Hudi's [timeline](https://hudi.apache.org/docs/concepts/#timeline), [file management](https://hudi.apache.org/docs/concepts/#file-management), [index](https://hudi.apache.org/docs/concepts/#index), [table types](https://hudi.apache.org/docs/concepts/#table-types), [query types](https://hudi.apache.org/docs/concepts/#query-types), [copy on write](https://hudi.apache.org/docs/concepts/#copy-on-write-table), [merge on read](https://hudi.apache.org/docs/concepts/#merge-on-read-table).
