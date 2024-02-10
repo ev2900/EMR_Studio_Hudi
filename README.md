@@ -1,6 +1,6 @@
 # Apache Hudi Examples
 
-<img width="85" alt="map-user" src="https://img.shields.io/badge/views-1053-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-235-green">
+<img width="85" alt="map-user" src="https://img.shields.io/badge/views-1053-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-240-green">
 
 Apache Hudi examples designed to be run on AWS Elastic Map Reduce (EMR) via. EMR Studio and/or EMR Notebook(s).
 
